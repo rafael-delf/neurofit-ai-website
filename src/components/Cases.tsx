@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { TrendingUp, Users, Clock } from 'lucide-react';
+import { TrendingUp, Users, Clock, Calendar } from 'lucide-react';
 
 const Cases = () => {
   const cases = [
