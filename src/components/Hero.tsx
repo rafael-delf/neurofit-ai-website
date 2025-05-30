@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Zap, Bot, TrendingUp } from 'lucide-react';
+import { ArrowRight, Bot, Clock, Users } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -10,20 +10,21 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <div className="inline-flex items-center px-4 py-2 bg-blue-50 text-neurofit-blue rounded-full text-sm font-medium mb-6">
-              <Zap className="w-4 h-4 mr-2" />
-              Tecnologia de Ponta para Academias
+              <Bot className="w-4 h-4 mr-2" />
+              Agentes Virtuais Inteligentes
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Revolucione sua academia com{' '}
+              O membro mais{' '}
               <span className="bg-neurofit-gradient bg-clip-text text-transparent">
-                Inteligência Artificial
-              </span>
+                eficiente
+              </span>{' '}
+              da sua equipe
             </h1>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Automatize processos, otimize operações e proporcione uma experiência excepcional 
-              aos seus alunos com nossas soluções de IA personalizadas.
+              Agentes de atendimento virtuais personalizados que trabalham 24/7 para sua academia. 
+              Automatize agendamentos, capture leads e ofereça atendimento excepcional.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
@@ -31,7 +32,7 @@ const Hero = () => {
                 size="lg" 
                 className="bg-neurofit-gradient hover:opacity-90 text-white h-12 px-8"
               >
-                Agendar Demonstração
+                Conhecer Agentes Virtuais
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <Button 
@@ -39,18 +40,18 @@ const Hero = () => {
                 size="lg" 
                 className="border-neurofit-blue text-neurofit-blue hover:bg-blue-50 h-12 px-8"
               >
-                Ver Como Funciona
+                Ver Demonstração
               </Button>
             </div>
             
             <div className="flex items-center space-x-6 text-sm text-gray-500">
               <div className="flex items-center">
-                <Bot className="w-4 h-4 mr-2 text-neurofit-blue" />
-                Automação Inteligente
+                <Clock className="w-4 h-4 mr-2 text-neurofit-blue" />
+                Disponível 24/7
               </div>
               <div className="flex items-center">
-                <TrendingUp className="w-4 h-4 mr-2 text-neurofit-blue" />
-                Resultados Comprovados
+                <Users className="w-4 h-4 mr-2 text-neurofit-blue" />
+                Completamente Personalizável
               </div>
             </div>
           </div>
@@ -62,23 +63,23 @@ const Hero = () => {
                   <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center mb-4">
                     <Bot className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-white font-semibold mb-2">IA Personalizada</h3>
+                  <h3 className="text-white font-semibold mb-2">Agente Virtual NeuroFit</h3>
                   <p className="text-white/80 text-sm">
-                    Chatbots inteligentes para atendimento 24/7
+                    "Olá! Como posso ajudar com sua academia hoje?"
                   </p>
                 </div>
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Automação de Agendamentos</span>
+                    <span className="text-sm text-gray-600">Leads Capturados</span>
+                    <span className="text-sm font-semibold text-green-600">+300%</span>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-sm text-gray-600">Agendamentos Automáticos</span>
                     <span className="text-sm font-semibold text-green-600">+85%</span>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Satisfação do Cliente</span>
-                    <span className="text-sm font-semibold text-green-600">+92%</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Redução de Custos</span>
-                    <span className="text-sm font-semibold text-green-600">-40%</span>
+                    <span className="text-sm text-gray-600">Atendimento 24h</span>
+                    <span className="text-sm font-semibold text-green-600">100%</span>
                   </div>
                 </div>
               </div>

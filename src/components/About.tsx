@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { ExternalLink, Instagram } from 'lucide-react';
+import { ExternalLink, Instagram, GraduationCap } from 'lucide-react';
 
 const About = () => {
   return (
-    <section id="sobre" className="py-20 bg-gradient-to-br from-gray-50 to-white">
+    <section id="sobre" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -20,9 +20,9 @@ const About = () => {
               <div className="flex items-start space-x-4">
                 <div className="w-6 h-6 bg-neurofit-gradient rounded-full flex-shrink-0 mt-1"></div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Especialização em Academias</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Agentes Completamente Personalizáveis</h3>
                   <p className="text-gray-600">
-                    Desenvolvemos soluções específicas para o setor fitness, entendendo suas necessidades únicas.
+                    Cada agente virtual é desenvolvido com a identidade única da sua academia, não soluções genéricas.
                   </p>
                 </div>
               </div>
@@ -30,9 +30,10 @@ const About = () => {
               <div className="flex items-start space-x-4">
                 <div className="w-6 h-6 bg-neurofit-gradient rounded-full flex-shrink-0 mt-1"></div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Tecnologia de Ponta</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Credibilidade Acadêmica UFG</h3>
                   <p className="text-gray-600">
-                    Utilizamos as mais avançadas tecnologias de IA para criar automações inteligentes e eficientes.
+                    Somos estudantes de Inteligência Artificial na UFG, o primeiro curso de IA da América Latina. 
+                    Estudamos exatamente o que oferecemos.
                   </p>
                 </div>
               </div>
@@ -40,9 +41,9 @@ const About = () => {
               <div className="flex items-start space-x-4">
                 <div className="w-6 h-6 bg-neurofit-gradient rounded-full flex-shrink-0 mt-1"></div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Suporte Completo</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Foco em Academias</h3>
                   <p className="text-gray-600">
-                    Acompanhamos sua academia desde a implementação até o sucesso das automações.
+                    Especialização total no setor fitness, entendendo as necessidades específicas do seu negócio.
                   </p>
                 </div>
               </div>
@@ -70,22 +71,27 @@ const About = () => {
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-xl p-8">
               <div className="bg-neurofit-gradient rounded-xl p-6 text-white mb-6">
-                <h3 className="text-2xl font-bold mb-2">+50%</h3>
-                <p className="text-white/90">Aumento na eficiência operacional</p>
+                <div className="flex items-center mb-4">
+                  <GraduationCap className="w-8 h-8 mr-3" />
+                  <div>
+                    <h3 className="text-lg font-bold">UFG - Universidade Federal de Goiás</h3>
+                    <p className="text-white/80 text-sm">Primeiro curso de IA da América Latina</p>
+                  </div>
+                </div>
               </div>
               
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Redução de tempo em tarefas administrativas</span>
-                  <span className="font-semibold text-neurofit-blue">70%</span>
+                  <span className="text-gray-600">Agentes Virtuais Implementados</span>
+                  <span className="font-semibold text-neurofit-blue">50+</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Melhoria na satisfação do cliente</span>
-                  <span className="font-semibold text-neurofit-blue">85%</span>
+                  <span className="text-gray-600">Academias Atendidas</span>
+                  <span className="font-semibold text-neurofit-blue">25+</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-600">Aumento na retenção de alunos</span>
-                  <span className="font-semibold text-neurofit-blue">60%</span>
+                  <span className="text-gray-600">Taxa de Satisfação</span>
+                  <span className="font-semibold text-neurofit-blue">98%</span>
                 </div>
               </div>
             </div>

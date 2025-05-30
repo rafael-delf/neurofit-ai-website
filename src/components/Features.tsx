@@ -1,38 +1,38 @@
 
 import React from 'react';
-import { Bot, Calendar, BarChart3, MessageSquare, Users, Zap } from 'lucide-react';
+import { Bot, Calendar, MessageSquare, Clock, Users, Zap } from 'lucide-react';
 
 const Features = () => {
   const features = [
     {
       icon: Bot,
-      title: 'Chatbots Inteligentes',
-      description: 'Atendimento automatizado 24/7 com respostas personalizadas e naturais.'
+      title: 'Agentes Virtuais Personalizados',
+      description: 'Agentes com a cara da sua academia, treinados especificamente para seu negócio e valores.'
+    },
+    {
+      icon: Clock,
+      title: 'Atendimento 24/7',
+      description: 'Capture leads e responda dúvidas a qualquer hora, mesmo fora do horário comercial.'
     },
     {
       icon: Calendar,
       title: 'Agendamento Automático',
-      description: 'Sistema inteligente de agendamentos que otimiza horários e reduz conflitos.'
-    },
-    {
-      icon: BarChart3,
-      title: 'Análise de Dados',
-      description: 'Insights valiosos sobre performance, frequência e comportamento dos alunos.'
+      description: 'Agende aulas experimentais e avaliações físicas automaticamente, sem intervenção humana.'
     },
     {
       icon: MessageSquare,
-      title: 'Comunicação Personalizada',
-      description: 'Mensagens automáticas personalizadas baseadas no perfil de cada aluno.'
+      title: 'Respostas Inteligentes',
+      description: 'Responde instantaneamente sobre planos, horários, aulas, estrutura e promoções.'
     },
     {
       icon: Users,
-      title: 'Gestão de Membros',
-      description: 'Automação completa do ciclo de vida dos membros, desde cadastro até renovação.'
+      title: 'Captura de Leads Qualificados',
+      description: 'Identifica e captura leads interessados, direcionando-os para conversão.'
     },
     {
       icon: Zap,
-      title: 'Integração Rápida',
-      description: 'Implementação simples que se integra aos sistemas existentes da sua academia.'
+      title: 'Integração Simples',
+      description: 'Conecta-se facilmente às plataformas que sua academia já utiliza.'
     }
   ];
 
@@ -41,14 +41,14 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Soluções Completas de{' '}
+            Agentes Virtuais{' '}
             <span className="bg-neurofit-gradient bg-clip-text text-transparent">
-              Automação
+              Inteligentes
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Transforme sua academia com tecnologia de ponta que automatiza processos 
-            e melhora a experiência dos seus alunos.
+            Desenvolvidos por estudantes de IA da UFG, nossos agentes são o membro mais 
+            eficiente e incansável da sua equipe.
           </p>
         </div>
 
