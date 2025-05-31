@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { TrendingUp, Users, Clock, Calendar } from 'lucide-react';
 
@@ -7,7 +8,7 @@ const Cases = () => {
       name: 'Academia Ideal',
       logo: '/lovable-uploads/bcbb7f42-3ac7-48ab-ba9c-87525e47b440.png',
       results: [
-        { metric: 'Leads Capturados', value: '+350%', icon: TrendingUp },
+        { metric: 'Leads Capturados', value: '+250%', icon: TrendingUp },
         { metric: 'Agendamentos', value: '+200%', icon: Calendar },
         { metric: 'Atendimentos 24h', value: '100%', icon: Clock }
       ]
@@ -17,8 +18,8 @@ const Cases = () => {
       logo: '/lovable-uploads/52f59b76-1710-4cde-8843-eaf2faaaa3a8.png',
       results: [
         { metric: 'Conversão de Leads', value: '+180%', icon: Users },
-        { metric: 'Tempo de Resposta', value: '-90%', icon: Clock },
-        { metric: 'Satisfação Cliente', value: '+95%', icon: TrendingUp }
+        { metric: 'Tempo de Resposta', value: '-75%', icon: Clock },
+        { metric: 'Satisfação Cliente', value: '+65%', icon: TrendingUp }
       ]
     }
   ];

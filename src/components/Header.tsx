@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import { ChevronDown } from 'lucide-react';
 
 const Header = () => {
   return (
@@ -30,9 +32,34 @@ const Header = () => {
           </a>
         </nav>
 
-        <Button className="bg-neurofit-gradient hover:opacity-90 text-white">
-          Falar Conosco
-        </Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button className="bg-neurofit-gradient hover:opacity-90 text-white">
+              Falar Conosco
+              <ChevronDown className="ml-2 w-4 h-4" />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent className="bg-white">
+            <DropdownMenuItem 
+              onClick={() => window.open('https://wa.me/5562996125341', '_blank')}
+              className="cursor-pointer"
+            >
+              Rafael - Consultor
+            </DropdownMenuItem>
+            <DropdownMenuItem 
+              onClick={() => window.open('https://wa.me/556295757585', '_blank')}
+              className="cursor-pointer"
+            >
+              Gustavo - Consultor
+            </DropdownMenuItem>
+            <DropdownMenuItem 
+              onClick={() => window.open('https://www.instagram.com/neurofit.ia', '_blank')}
+              className="cursor-pointer"
+            >
+              Instagram
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
     </header>
   );

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Bot, Clock, Users } from 'lucide-react';
@@ -31,16 +30,10 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-neurofit-gradient hover:opacity-90 text-white h-12 px-8"
-              >
-                Conhecer Agentes Virtuais
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="border-neurofit-blue text-neurofit-blue hover:bg-blue-50 h-12 px-8"
+                onClick={() => window.open('https://chatvolt.ai/@academiaideal', '_blank')}
               >
                 Ver Demonstração
+                <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </div>
             

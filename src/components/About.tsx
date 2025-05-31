@@ -83,15 +83,15 @@ const About = () => {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Agentes Virtuais Implementados</span>
-                  <span className="font-semibold text-neurofit-blue">50+</span>
+                  <span className="font-semibold text-neurofit-blue">15+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Academias Atendidas</span>
-                  <span className="font-semibold text-neurofit-blue">25+</span>
+                  <span className="font-semibold text-neurofit-blue">2+</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-600">Taxa de Satisfação</span>
-                  <span className="font-semibold text-neurofit-blue">98%</span>
+                  <span className="font-semibold text-neurofit-blue">85%</span>
                 </div>
               </div>
             </div>

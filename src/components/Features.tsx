@@ -12,7 +12,7 @@ const Features = () => {
     {
       icon: Clock,
       title: 'Atendimento 24/7',
-      description: 'Capture leads e responda dúvidas a qualquer hora, mesmo fora do horário comercial.'
+      description: 'Responde instantaneamente sobre planos, horários, aulas, estrutura e promoções mesmo fora do horário comercial.'
     },
     {
       icon: Calendar,
@@ -21,8 +21,8 @@ const Features = () => {
     },
     {
       icon: MessageSquare,
-      title: 'Respostas Inteligentes',
-      description: 'Responde instantaneamente sobre planos, horários, aulas, estrutura e promoções.'
+      title: 'Disparos de mensagens automáticos',
+      description: 'Mensagens automáticas para alunos ausentes, planos prestes a vencer, parabenizações por frequência e aniversário e muito mais!'
     },
     {
       icon: Users,
@@ -47,7 +47,7 @@ const Features = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Desenvolvidos por estudantes de IA da UFG, nossos agentes são o membro mais 
+            Desenvolvidos por estudantes de Inteligência Artificial da UFG, nossos agentes são o membro mais 
             eficiente e incansável da sua equipe.
           </p>
         </div>
