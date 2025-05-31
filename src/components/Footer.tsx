@@ -9,8 +9,14 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-neurofit-gradient rounded-lg"></div>
-              <span className="text-xl font-bold">NeuroFit</span>
+              <img 
+                src="/lovable-uploads/55ad7daa-dd04-49b4-bda9-85c13413b423.png" 
+                alt="NeuroFit Logo" 
+                className="w-8 h-8 object-contain"
+              />
+              <span className="text-xl font-bold bg-neurofit-gradient bg-clip-text text-transparent font-serif">
+                NeuroFit
+              </span>
             </div>
             <p className="text-gray-400 mb-4">
               Revolucionando academias com automações inteligentes e IA de ponta.

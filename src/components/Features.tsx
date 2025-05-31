@@ -22,7 +22,7 @@ const Features = () => {
     {
       icon: MessageSquare,
       title: 'Disparos de mensagens automáticos',
-      description: 'Mensagens automáticas para alunos ausentes, planos prestes a vencer, parabenizações por frequência e aniversário e muito mais!'
+      description: 'Mensagens automáticas para alunos ausentes, planos prestes a vencer, parabenizações por frequência, aniversário e muito mais!'
     },
     {
       icon: Users,

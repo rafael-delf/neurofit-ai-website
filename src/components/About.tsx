@@ -30,10 +30,9 @@ const About = () => {
               <div className="flex items-start space-x-4">
                 <div className="w-6 h-6 bg-neurofit-gradient rounded-full flex-shrink-0 mt-1"></div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Credibilidade Acadêmica UFG</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Foco em Academias</h3>
                   <p className="text-gray-600">
-                    Somos estudantes de Inteligência Artificial na UFG, o primeiro curso de IA da América Latina. 
-                    Estudamos exatamente o que oferecemos.
+                    Especialização total no setor fitness, entendendo as necessidades específicas do seu negócio.
                   </p>
                 </div>
               </div>
@@ -41,9 +40,9 @@ const About = () => {
               <div className="flex items-start space-x-4">
                 <div className="w-6 h-6 bg-neurofit-gradient rounded-full flex-shrink-0 mt-1"></div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Foco em Academias</h3>
+                  <h3 className="font-semibold text-gray-900 mb-2">Credibilidade Acadêmica UFG</h3>
                   <p className="text-gray-600">
-                    Especialização total no setor fitness, entendendo as necessidades específicas do seu negócio.
+                    Como discentes do curso pioneiro de Inteligência Artificial da América Latina (UFG), estamos imersos nas mais recentes descobertas da área. O que oferecemos é a aplicação direta do conhecimento de vanguarda que vivenciamos e desenvolvemos em nossos estudos.
                   </p>
                 </div>
               </div>

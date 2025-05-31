@@ -10,11 +10,13 @@ const Header = () => {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <img 
-            src="/lovable-uploads/e17f0479-97ec-49f7-bed2-ca78f9d3c156.png" 
+            src="/lovable-uploads/55ad7daa-dd04-49b4-bda9-85c13413b423.png" 
             alt="NeuroFit Logo" 
             className="w-10 h-10 object-contain"
           />
-          <span className="text-xl font-bold text-gray-900">NeuroFit</span>
+          <span className="text-xl font-bold bg-neurofit-gradient bg-clip-text text-transparent font-serif">
+            NeuroFit
+          </span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">

@@ -18,8 +18,8 @@ const Cases = () => {
       logo: '/lovable-uploads/52f59b76-1710-4cde-8843-eaf2faaaa3a8.png',
       results: [
         { metric: 'Conversão de Leads', value: '+180%', icon: Users },
-        { metric: 'Tempo de Resposta', value: '-75%', icon: Clock },
-        { metric: 'Satisfação Cliente', value: '+65%', icon: TrendingUp }
+        { metric: 'Tempo de Resposta', value: '-99%', icon: Clock },
+        { metric: 'Satisfação Cliente', value: '+85%', icon: TrendingUp }
       ]
     }
   ];
